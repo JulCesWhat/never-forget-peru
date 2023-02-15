@@ -19,7 +19,7 @@ function App() {
               <h2>Title</h2>
               <div class="date">1 MAY 2016</div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-              <a class="bnt-more" href="javascript:void(0)">More</a>
+              <a class="bnt-more">More</a>
             </div>
           </div>
 
@@ -33,7 +33,7 @@ function App() {
               </div>
               <div class="date">25 MAY 2016</div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-              <a class="bnt-more" href="javascript:void(0)">More</a>
+              <a class="bnt-more" >More</a>
             </div>
 
           </div>
@@ -57,7 +57,7 @@ function App() {
               <h2>Title</h2>
               <div class="date">22 JUN 2016</div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-              <a class="bnt-more" href="javascript:void(0)">More</a>
+              <a class="bnt-more" >More</a>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ function App() {
               </div>
               <div class="date">10 JULY 2016</div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-              <a class="bnt-more" href="javascript:void(0)">More</a>
+              <a class="bnt-more" >More</a>
             </div>
           </div>
 
@@ -85,7 +85,7 @@ function App() {
               </div>
               <div class="date">30 JULY 2016</div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-              <a class="bnt-more" href="javascript:void(0)">More</a>
+              <a class="bnt-more" >More</a>
             </div>
           </div>
 
@@ -110,7 +110,7 @@ function App() {
               </div>
               <div class="date">19 AUG 2016</div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-              <a class="bnt-more" href="javascript:void(0)">More</a>
+              <a class="bnt-more" >More</a>
             </div>
           </div>
 
@@ -122,7 +122,7 @@ function App() {
               <div class="date">1 SEP 2016</div>
               <h2>Title</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-              <a class="bnt-more" href="javascript:void(0)">More</a>
+              <a class="bnt-more" >More</a>
             </div>
           </div>
 
