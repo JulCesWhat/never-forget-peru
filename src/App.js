@@ -5,8 +5,8 @@ function App() {
     <div className="App">
       <header>
         <div class="container text-center">
-          <h1>Vertical Timeline</h1>
-          <p>Sava Lazic</p>
+          <h1>Nunca Olvidaremos</h1>
+          <p>Sashi Mato</p>
         </div>
       </header>
 
