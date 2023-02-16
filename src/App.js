@@ -1,17 +1,66 @@
 import './App.css';
 import { Header } from './components/Header';
 import { TimelineItem } from './components/TimelineItem';
+import { ScrollReveal } from './components/ScrollReveal';
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
+    return (
+        <div className="App">
+            <Header />
 
-      <section className="timeline">
-        <div className="container">
-          <TimelineItem />
+            <section className="timeline">
+                <div className="container">
+{/* 
+                    <TimelineItem direction="right" />
+                    <TimelineItem direction="left" />
+                    <TimelineItem direction="right" />
+                    <TimelineItem direction="left" /> */}
 
-          {/* <div class="timeline-item">
+                    <div className="timeline-item">
+                        <div className="timeline-img"></div>
+
+                        <ScrollReveal classNames="timeline-content"
+                            direction="right">
+                            <h2>Title</h2>
+                            <div className="date">1 MAY 2016</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                            <a className="bnt-more">More</a>
+                        </ScrollReveal>
+                    </div>
+
+                    <div className="timeline-item">
+                        <div className="timeline-img"></div>
+
+                        <ScrollReveal classNames="timeline-content"
+                            direction="left">
+                            <h2>Title</h2>
+                            <div className="date">1 MAY 2016</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                            <a className="bnt-more">More</a>
+                        </ScrollReveal>
+                    </div>
+
+                    <div className="timeline-item">
+                        <div className="timeline-img"></div>
+
+                        <ScrollReveal classNames="timeline-content"
+                            direction="right">
+                            <h2>Title</h2>
+                            <div className="date">1 MAY 2016</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                            <a className="bnt-more">More</a>
+                        </ScrollReveal>
+                    </div>
+
+
+                    {/* <ScrollReveal>
+            <TimelineItem />
+          </ScrollReveal>
+          <ScrollReveal>
+            <TimelineItem />
+          </ScrollReveal> */}
+
+                    {/* <div class="timeline-item">
 
             <div class="timeline-img"></div>
 
@@ -116,11 +165,11 @@ function App() {
 
 
 
-        </div>
-      </section>
+                </div>
+            </section>
 
-    </div>
-  );
+        </div>
+    );
 }
 
 export default App;
