@@ -1,29 +1,17 @@
 import './App.css';
+import { Header } from './components/Header';
+import { TimelineItem } from './components/TimelineItem';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <div class="container text-center">
-          <h1>Nunca Olvidaremos</h1>
-          <p>Sashi Mato</p>
-        </div>
-      </header>
+      <Header />
 
-      <section class="timeline">
-        <div class="container">
-          <div class="timeline-item">
-            <div class="timeline-img"></div>
+      <section className="timeline">
+        <div className="container">
+          <TimelineItem />
 
-            <div class="timeline-content js--fadeInLeft">
-              <h2>Title</h2>
-              <div class="date">1 MAY 2016</div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-              <a class="bnt-more">More</a>
-            </div>
-          </div>
-
-          <div class="timeline-item">
+          {/* <div class="timeline-item">
 
             <div class="timeline-img"></div>
 
@@ -124,7 +112,7 @@ function App() {
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
               <a class="bnt-more" >More</a>
             </div>
-          </div>
+          </div> */}
 
 
 
