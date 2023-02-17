@@ -118,6 +118,10 @@ header {
     background: #f5f5f5;
     box-shadow: 0 20px 25px -15px rgba(0, 0, 0, .3);
 
+    .content-body {
+        text-align: left;
+    }
+
     &::after {
         content: '';
         position: absolute;

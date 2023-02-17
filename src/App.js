@@ -1,7 +1,30 @@
 import './App.css';
 import { Header } from './components/Header';
 import { TimelineItem } from './components/TimelineItem';
-import { ScrollReveal } from './components/ScrollReveal';
+
+const dateItems = [
+  {
+    date: 'Miercoles 7 de Diciembre 2022',
+    content: `
+    <p>11:00 am. En Mensaje a la Nacion, Pedro Castillo disulve el Congreso.</p>
+    <p>Las Fuerzas Armadas rechaza apoyar la order de Castillo.</p>
+    <p>La Mesa Directiva del Congreso llamo a session para adelatar la votacion de la vacancia que se tenia programada para las 3:00 pm.</p>
+    `
+  }, {
+    date: 'Jueves 8 de Diciembre 2022',
+    content: `
+    <p>Estados Unidos reconoce el gobierno de Boluarte, mientras que Mexico, Colombia, Bolivia y Argentina lo desconocen.</p>
+    <p>La fiscalia denuncia a Pedro Castillo por rebelion y ordenan su detencion preventiva por 7 dias.</p>`
+  }, {
+    date: 'Viernes 9 de Diciembre 2022',
+    content: `
+    <p>Las protestas se extienden por el pais, hay bloqueos de carreteras as sur y al norte.</p>`
+  }, {
+    date: 'Sabado 10 de Diciembre 2022',
+    content: `
+    <p>Dina Boluarte juramenta su nuevo gabinete encabezado por el ex fiscal Pedro Angulo. Es un gabinete de tendencia derechista y ligado al fujimorismo.</p>`
+  },
+]
 
 function App() {
     return (
@@ -11,14 +34,23 @@ function App() {
             <section className="timeline">
                 <div className="container">
 
-                    <TimelineItem direction="right" />
+                  {
+                    dateItems.map((item, i) => {
+                      return <TimelineItem
+                        direction={i % 2 === 0 ? 'right' : 'left'}
+                        date={item.date}
+                        content={item.content} />
+                    })
+                  }
+
+                    {/* <TimelineItem direction="right" />
                     <TimelineItem direction="left" />
                     <TimelineItem direction="right" />
                     <TimelineItem direction="left" />
                     <TimelineItem direction="right" />
                     <TimelineItem direction="left" />
                     <TimelineItem direction="right" />
-                    <TimelineItem direction="left" />
+                    <TimelineItem direction="left" /> */}
 
 
                     {/* <ScrollReveal>
