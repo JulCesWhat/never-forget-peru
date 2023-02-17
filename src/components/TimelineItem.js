@@ -2,7 +2,7 @@ import React from "react";
 
 import { ScrollReveal } from './ScrollReveal';
 
-export function TimelineItem(direction = '') {
+export function TimelineItem({ direction: direction = '' }) {
 
     return (
         <div className="timeline-item">

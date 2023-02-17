@@ -46,7 +46,7 @@ h1 {
 header {
     background: $primary;
     color: $text;
-    padding: 150px 0;
+    padding: 20px 0;
 
     p {
         font-family: 'Allura';
@@ -219,17 +219,17 @@ blockquote {
     .timeline {
 
         &::before {
-            left: 50px;
+            left: 15px;
         }
 
         .timeline-img {
-            left: 50px;
+            left: 15px;
         }
 
         .timeline-content {
             max-width: 100%;
             width: auto;
-            margin-left: 70px;
+            margin-left: 35px;
         }
 
         .timeline-item {
