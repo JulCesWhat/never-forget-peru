@@ -14,7 +14,7 @@ export function TimelineItem({
 
             <ScrollReveal classNames="timeline-content"
                 direction={direction}>
-                <h2>Title</h2>
+                {/* <h2>Title</h2> */}
                 <div className="date">{date}</div>
                 <div className="content-body" dangerouslySetInnerHTML={{__html: content}}></div>
                 <a className="bnt-more">More</a>
