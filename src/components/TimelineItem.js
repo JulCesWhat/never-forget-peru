@@ -5,7 +5,8 @@ import { ScrollReveal } from './ScrollReveal';
 export function TimelineItem({
     direction: direction = '',
     date: date,
-    content: content
+    content: content,
+    more: more = false
 }) {
 
     return (
@@ -16,8 +17,12 @@ export function TimelineItem({
                 direction={direction}>
                 {/* <h2>Title</h2> */}
                 <div className="date">{date}</div>
-                <div className="content-body" dangerouslySetInnerHTML={{__html: content}}></div>
-                <a className="bnt-more">More</a>
+                <div className="content-body" dangerouslySetInnerHTML={{ __html: content }}></div>
+                {
+                    more && (
+                        <a className="bnt-more">More</a>
+                    )
+                }
             </ScrollReveal>
         </div>
     )

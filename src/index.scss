@@ -21,7 +21,7 @@ $secondary-text: #757575;
 $accent: #FF4081;
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 html,
@@ -44,9 +44,12 @@ h1 {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: $primary;
     color: $text;
-    padding: 20px 0;
+    padding: 20px 20px;
 
     p {
         font-family: 'Allura';

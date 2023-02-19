@@ -1,11 +1,20 @@
+import { useNavigate } from 'react-router-dom';
+
+import './Header.scss';
+
 export function Header() {
+    const navigate = useNavigate();
+
+    const reroute = (path) => {
+        navigate(path);
+    }
 
     return (
         <header>
-            <div className="container text-center">
-                <h1>Nunca Olvidaremos</h1>
-                <p>Tigrillo</p>
-            </div>
+            <h3 onClick={() => reroute('/')}>Nunca Olvidaremos</h3>
+            <nav className="container text-center">
+                <span onClick={() => reroute('/contact')}>Contacto</span>
+            </nav>
         </header>
     );
 }
