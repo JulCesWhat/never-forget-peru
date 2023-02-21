@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./Contact.scss"
 
-const emailEndpoint = "http://localhost:5000/contact";
+const emailEndpoint = "https://us-central1-never-forget-peru.cloudfunctions.net/email";
 
 function Contact() {
     const [submitting, setSubmitting] = useState(false);
