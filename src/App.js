@@ -4,6 +4,8 @@ import './App.css';
 import { Header } from './components/Header';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Persons from './pages/Persons';
+import PersonDetails from './pages/PersonDetails';
 
 // á, é, í, ó, ú
 const dateItems = [
@@ -99,6 +101,8 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home dateItems={dateItems} />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/persons/:date" element={<Persons />} />
+                    <Route path="/persons/:date/:id" element={<PersonDetails />} />
                 </Routes>
             </Router>
         </div>
