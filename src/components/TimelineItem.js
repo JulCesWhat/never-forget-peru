@@ -1,13 +1,20 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 import { ScrollReveal } from './ScrollReveal';
 
 export function TimelineItem({
     direction: direction = '',
-    date: date,
-    content: content,
+    date,
+    content,
+    id,
     more: more = false
 }) {
+    const navigate = useNavigate();
+
+    const handleMoreClick = () => {
+        navigate(`/persons/${id}`);
+    }
 
     return (
         <div className="timeline-item">
@@ -20,7 +27,7 @@ export function TimelineItem({
                 <div className="content-body" dangerouslySetInnerHTML={{ __html: content }}></div>
                 {
                     more && (
-                        <a className="bnt-more">More</a>
+                        <a className="bnt-more" onClick={handleMoreClick}>More</a>
                     )
                 }
             </ScrollReveal>
