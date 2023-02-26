@@ -59,6 +59,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 ### Advanced Configuration
 
+Updated config (env keys) `firebase functions:config:set someservice.key="THE API KEY" someservice.id="THE CLIENT ID"`
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
