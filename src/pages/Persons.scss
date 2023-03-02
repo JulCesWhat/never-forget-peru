@@ -1,3 +1,5 @@
+@import "./../colors";
+
 .persons-container {
     display: flex;
     justify-content: center;
@@ -7,11 +9,39 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+        gap: 1px;
     }
 
     .col {
         display: inline-block;
-        width: 25%;
+        width: 32%;
+    }
+
+    .persons-item {
+        position: relative;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background: #f5f5f5;
+        box-shadow: 0 20px 25px -15px rgb(0 0 0 / 30%);
+
+        .persons-img-header {
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('https://picsum.photos/1000/800/?random') center center no-repeat;
+            background-size: cover;
+        }
+    }
+    
+    .persons-img-header {
+    
+        height: 200px;
+        position: relative;
+        margin-bottom: 20px;
+    
+        h2 {
+            color: $text;
+            position: absolute;
+            bottom: 5px;
+            left: 20px;
+        }
     }
 
 }
@@ -19,7 +49,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .persons-container {
         .col {
-            width: 33%;
+            width: 49%;
         }
     }
 }
@@ -28,7 +58,7 @@
     //Put your CSS here for 200px to 767px width devices (cover all width between 200px to 767px //
     .persons-container {
         .col {
-            width: 50%;
+            width: 100%;
         }
     }
 }

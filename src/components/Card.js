@@ -1,6 +1,8 @@
 import React from "react";
 
 
+const iconPath = process.env.PUBLIC_URL + '/assets/icons/';
+
 export function Card({
 
 }) {

@@ -3,11 +3,11 @@ import { useParams } from 'react-router-dom'
 import "./Persons.scss"
 
 function Person({ individuals }) {
-    const { id } = useParams();
+    const { userId } = useParams();
     return (
         <section className="persons-container">
             <div className="container flex-grid">
-                The User {id}
+                The User {userId}
             </div>
         </section>
     );

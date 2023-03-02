@@ -20,8 +20,8 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home dateItems={dateItems} />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/persons/" element={<Persons individuals={persons} />} />
-                    <Route path="/person/userId" element={<Person individuals={persons} />} />
+                    <Route path="/persons" element={<Persons individuals={persons} />} />
+                    <Route path="/person/:userId" element={<Person individuals={persons} />} />
                     <Route path='*' element={<NotFound />} />
                 </Routes>
             </Router>

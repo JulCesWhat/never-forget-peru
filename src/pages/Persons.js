@@ -1,8 +1,9 @@
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, useNavigate } from 'react-router-dom'
 
 import "./Persons.scss"
 
 function Persons({ individuals }) {
+    const navigate = useNavigate();
     const [searchParams, setSearchParams] = useSearchParams()
     const date = searchParams.get('date') ?? ''
 
@@ -13,6 +14,10 @@ function Persons({ individuals }) {
             return indiv.deathDate === date;
         });
     }
+    const handleMoreClick = (path) => {
+        navigate(path);
+    }
+
     return (
         <section className="persons-container">
             <div className="container flex-grid">
@@ -20,10 +25,13 @@ function Persons({ individuals }) {
                 {
                     individualsArr.length ? ( individualsArr.map((per) => {
                         return (
-                            <div key={per.id} className="timeline-contents col">
-                                <div className="date">3 JUN 2016</div>
-                                <h2>Quote</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</p>
+                            <div key={per.id} className="persons-item col">
+                                <div className="persons-img-header">
+                                    <h2>{per.name}</h2>
+                                </div>
+                                {/* <div className="date">10 JULY 2016</div> */}
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                                <a className="bnt-more" onClick={() => handleMoreClick(`/person/${per.id}`)}>Mas Detalles</a>
                             </div>
                         )
                     })) : (

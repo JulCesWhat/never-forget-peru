@@ -27,7 +27,7 @@ export function TimelineItem({
                 <div className="content-body" dangerouslySetInnerHTML={{ __html: content }}></div>
                 {
                     more && (
-                        <a className="bnt-more" onClick={handleMoreClick}>More</a>
+                        <a className="bnt-more" onClick={handleMoreClick}>Personas</a>
                     )
                 }
             </ScrollReveal>
