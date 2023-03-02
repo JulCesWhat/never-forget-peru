@@ -1,0 +1,42 @@
+.persons-container {
+    display: flex;
+    justify-content: center;
+
+    .flex-grid {
+        max-width: 1024px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .col {
+        display: inline-block;
+        width: 25%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .persons-container {
+        .col {
+            width: 33%;
+        }
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 767px) {
+    //Put your CSS here for 200px to 767px width devices (cover all width between 200px to 767px //
+    .persons-container {
+        .col {
+            width: 50%;
+        }
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+    .persons-container {
+        .col {
+            width: 100%;
+        }
+    }
+}

@@ -13,7 +13,7 @@ export function TimelineItem({
     const navigate = useNavigate();
 
     const handleMoreClick = () => {
-        navigate(`/persons/${id}`);
+        navigate(`/persons?date=${id}`);
     }
 
     return (

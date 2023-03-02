@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import Persons from './pages/Persons';
-import PersonDetails from './pages/PersonDetails';
 import websiteData from './data'
 
 
@@ -20,8 +19,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home dateItems={dateItems} />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/persons/:date" element={<Persons />} />
-                    <Route path="/persons/:date/:id" element={<PersonDetails />} />
+                    <Route path="/persons/" element={<Persons individuals={persons} />} />
                     <Route path='*' element={<NotFound />} />
                 </Routes>
             </Router>
