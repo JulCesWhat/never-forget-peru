@@ -1,0 +1,38 @@
+@import "./../colors";
+
+
+.person-container {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        max-width: 1024px;
+
+        .person-card {
+            position: relative;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            background: #f5f5f5;
+            box-shadow: 0 20px 25px -15px rgb(0 0 0 / 30%);
+    
+            .person-img-header {
+                background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('https://picsum.photos/1000/800/?random') center center no-repeat;
+                background-size: cover;
+            }
+        }
+        
+        .person-img-header {
+        
+            height: 400px;
+            position: relative;
+            margin-bottom: 20px;
+        
+            h2 {
+                color: $text;
+                position: absolute;
+                bottom: 5px;
+                left: 20px;
+            }
+        }
+    }
+}
