@@ -30,8 +30,13 @@ function Persons({ individuals }) {
                                     <h2>{per.name}</h2>
                                 </div>
                                 {/* <div className="date">10 JULY 2016</div> */}
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-                                <a className="bnt-more" onClick={() => handleMoreClick(`/person/${per.id}`)}>Mas Detalles</a>
+                                <p>{per.shortDetails}</p>
+                                {
+                                    per.details?.length && (
+                                        <a className="bnt-more"
+                                        onClick={() => handleMoreClick(`/person/${per.id}`)}>Mas Detalles</a>
+                                    )
+                                }
                             </div>
                         )
                     })) : (
