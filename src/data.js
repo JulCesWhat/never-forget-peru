@@ -335,11 +335,92 @@ export default {
             id: '01-09-2022',
             date: 'Lunes 09 de Enero 2023',
             content: `
-            <p>Ingreso de miles de quchuas y aymaras a Juliaca y la ciudad de Puno, asi como de rondas campesianas. Hubo fuerte represion en Juliaca (San Roman, Puno) al intentar tomar el aeropuerto que dejo 17 fallecidos con heridas de bala (entre ellos un medico que auxiliaba heridos y una joven de 17 anos) y mas de 50 heridos. Hubo posteriores saqueos con la indignacion de las noticias.</p>
-            <p>Mientras Dina Boluarte organizaba reunion del Acuerdo nacional en Lima, al que se negaron a asistir los gobernadores regionales de Apurimas, Cusco y Puno; el evento fue postergado con la noticia del primer fallecido en Juliaca.</p>
-            <p>Ante los graves hechos el Gobierno Regional de Cusco, hizo un pronunciamiento que pide la renuncia de Dina y actual mesa directiva del Congreso para formar un gobierno de trasicion; en la misma linea son las declaraciones del Gobernador Regional de Puno.</p>
-            <p>tambien hubo protestas en otros Lugares del pais.</p>
-            <p>La Superintendencia Nacional dle Migraciones ordeno impedir el ingreso al pais de Evo Morales y otros bolivianos por participar en reuniones en el sur del pais.</p>
+            <p>Ingreso de miles de quechuas y aymaras a Juliaca y la ciudad de Puno, así como de rondas campesianas. Hubo <b>fuerte represión en Juliaca</b> (San Roman, Puno) al intentar tomar el aeropuerto que dejó <b/>17 fallecidos con heridas de bala</b> (entre ellos un médico que auxiliaba heridos y una joven de 17 años) y más de 50 heridos. Hubo posteriores saqueos con la indignación de las noticias.</p>
+            <p>Mientras Dina Boluarte organizaba <b>reunión del Acuerdo nacional en Lima</b>, al que se negaron a asistir los gobernadores regionales de Apurímac, Cusco y Puno; el evento fue postergado con la noticia del primer fallecido en Juliaca.</p>
+            <p>Ante los graves hechos el Gobierno Regional de Cusco, hizo un <b>pronunciamiento que pide la renuncia de Dina y actual mesa directiva del Congreso</b> para formar un gobierno de trasición; en la misma línea son las declaraciones del Gobernador Regional de Puno.</p>
+            <p>también hubo protestas en otros lugares del país.</p>
+            <p>La Superintendencia Nacional de Migraciones ordenó <b>impedir el ingreso al país de Evo Morales</b> y otros bolivianos por participar en reuniones en el sur del país.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-10-2022',
+            date: 'Martes 10 de Enero 2023',
+            content: `
+            <p>Hallazgo de un cadáver en Juliaca. De acuerdo a la Policía, <b>tres efectivos fueron retenidos por manifestantes y uno de ellos perdió la vida</b> cuando quemaron el vehículo policial. Sin embargo, la misma policía levantó al cuerpo antes de que llegue la fiscalía.</p>
+            <p>En distintos puntos las movilizaciones continuaron con expresiones de <b>solidaridad para las víctimas y familias de Juliaca</b>. Varias anuncian <b>marcha a Lima para el fin de semana</b>.</p>
+            <p>En Chiclayo, Rondas campesinas y juntas de usuarios llegaron desde Lambayeque. En Piura hubo marcha y performance. En Tacna, multitudinaria movilización.</p>
+            <p>En Cusco, una decena de vehículos procedentes de las provincias de Canchis, Canas, Acomayo, Espinar, Chumbivilcas, Calca, La Convención y de otros distritos ingresaron a la ciudad de Cusco.</p>
+            <p>Familiares denunciaron que peritos limeños <b>quieren alterar el informe de la causa de muerte de las víctimas de Juliaca</b>.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-11-2022',
+            date: 'Miercoles 11 de Enero 2023',
+            content: `
+            <p>Paro en Puno, Moquegua y Tacna. Movilizaciones y bloqueos en Arequipa, Chota, Ayacucho.</p>
+            <p>Represión a las protestas en av. 28 de julio en Cusco, deja un muerto:</p>
+            <ol start="42">
+                <li>Remo Candia Guevara (44) dirigente campesino de Anta.</li>
+            </ol>
+            <p>Así como más de 43 heridos, tres de ellos en gravedad.</p>
+            <p>En Puno se realiza multitudinario sepelio de los 17 asesinados por las represión el día anterior.</p>
+            <p>Entregan lor restos del oficial Soncco Quispe en Cusco (fallecido en Juliaca el día anterior, en el patrulleor incinerado), sus padres piden la renuncia de Dina Boluarte.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-12-2022',
+            date: 'Jueves 12 de Enero 2023',
+            content: `
+            <p>Paro y bloqueos en San Martín, Cusco, Arequipa, Tacna, Moquegua, Puno, Madre de Dios, Ayacucho y Huancavelica.</p>
+            <p>Homenaje a Remo Candia en Cusco.</p>
+            <p>Homenaje y sepelio de Eberth Mamani Arqui en Sicuani, fue uno de los fallecidos en Juliaca el 9 de enero.</p>
+            <p>Renuncia el ministro de Trabajo.</p>
+            <p>Fallece el menor de iniciales B. A. H. (15), uno de los heridos en la represión del 9 de enero en Juliaca.</p>
+            <ol start="43">
+                <li>B. A. H. (15)</li>
+            </ol>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-13-2022',
+            date: 'Viernes 13 de Enero 2023',
+            content: `
+            <p>Un grupo de 20 personas queman una planta de bombeo de mina Antapaccay en Espinar, Cusco.</p>
+            <p>Minera Las Bambas suspende operaciones.</p>
+            <p>Paro y bloqueos en Andahuaylas y Tarapoto.</p>
+            <p>Marcha por la paz en Cusco ataca violentamente a manifestantes de provincias y les lanza insultos racistas.</p>
+            <p>Renuncian dos ministros y Boluarte los reemplaza a tres. Horas más tarde da un mensaje sustentando en noticias falsas, se niega a renunciar.</p>
+            <p>Gobierno da ley 31651 que sigue exonerando impuestos a las grandes empresas multimillionarias hasta el 31 de diciembre del 2025.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-14-2022',
+            date: 'Sabado 14 de Enero 2023',
+            content: `
+            <p>Bloqueos en 11 regiones del país.</p>
+            <p>Manifestación en Lima recorre del centro a Larcomar.</p>
+            <p>Informe de la CIDH, no condena al régimen de Boluarte y sugiere diálogo.</p>
+            <p>Sepelio de Remo Candia en su pueblo de Anta.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-15-2022',
+            date: 'Domingo 15 de Enero 2023',
+            content: `
+            <p>Empiezan a partir algunas delegaciones de manifestantes de diversas regiones, rumbo a lo que denominaron "la toma de Lima" o "segunda marcha de los 4 suyos".</p>
+            <p>Se organizan colectas para financiar el viaje de las distintas delegaciones.</p>
             `,
             more: false,
             people: []
