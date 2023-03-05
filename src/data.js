@@ -273,7 +273,7 @@ export default {
         },
         {
             id: '12-29-2022',
-            date: 'Jueves 29 de Diciembre 2022 al Martes 2 Enero 2023',
+            date: 'Jueves 29 de Diciembre 2022 al Lunes 2 Enero 2023',
             content: `
             <p>Dina Boluarte hace <b>conferencia restringida en Cusco</b>, periodistas le increpan por represión. Pobladores arrojan basura a su comitiva al salir del lugar.</p>
             <p><b>Actos culturales y vigilias</b> exigiendo justicia, en Lima y distintas ciudades del país.</p>
@@ -282,17 +282,64 @@ export default {
             people: []
         },
         {
-            id: '12-23-2022',
-            date: 'Viernes 23 de Diciembre 2022',
+            id: '01-03-2022',
+            date: 'Martes 03 de Enero 2023',
             content: `
+            <p>Movilización a favor del gobierno con el nombre de <b>marcha por la paz</b>. Convocada por la policía.</p>
             `,
             more: false,
             people: []
         },
         {
-            id: '12-23-2022',
-            date: 'Viernes 23 de Diciembre 2022',
+            id: '01-04-2022',
+            date: 'Miércoles 04 de Enero 2023',
             content: `
+            <p>Reinicio del Paro Macrosur, con protestas y bloqueo de carreteras en distintas regiones del país. Según informe de Sutran había <b>35 puntos de bloqueos en carreteras</b> en todo el país.</p>
+            <p>Y en el Congreso siguen generando provocaciones presentando proyectos de ley como estos:</p>
+            <ul>
+                <li>Congresista Rosselli Amuruz presenta proyecto de ley para <b>Recorte del mandato del presidente de la ONPE y del JNE</b>.</li>
+                <li>Congresista Alejandro Muñante presenta proyecto de reforma constitucional para la <b>Reelección inmediata del congresistas</b> por un periodo adicional.</li>
+                <li>Este mismo congresista presentó un proyecto de ley para <b>reducir y remover a la Junta Nacional de Justicia y al Defensor del Pueblo</b>.</li>
+            </ul>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-05-2022',
+            date: 'Jueves 05 de Enero 2023',
+            content: `
+            <p>Continúan protestas en varias regiones del país y carreteras bloqueadas.</p>
+            <p><b>Denuncia de Congresista Montoya a Evo Morales</b> (ex presidente Boliviano), Vladimir Cerrón y Contra German alejo (Gobernador de Puno) pro traición a la patria.</p>
+            <p>En Cusco, Luis Pantoja (Alcalde de Cusco) advierte a administradores de mercados que si cierran sin autorización serán suspendidos.</p>
+            <p>Reportaje de Frecuencia Latina en Lima, <b>criminaliza a las Brigadas 14 N</b> donde los acusa de actos delictivos y vandálicos, cuando el propósito de estas brigadas es apoyar en el derecho de ciudadanos a manifestarse pacíficamente a partir de dar mascaras o vinagre para contrarrestar los efectos del gas, neutralizar bombas lacrimógenas, dar primeros auxilios, etc.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-06-08-2022',
+            date: 'Viernes 05 al Domingo 08 de Enero 2023',
+            content: `
+            <p>Intento de toma del aeropuerto de <b>Juliaca</b> (San Román, Puno) con fuerte represión que deja aprox. <b>70 heridos</b>, entre ellos 2 de gravedad por armas de fuego. Se dice que disparaban desde helicópteros y tiraban bombas lacrimógenas.</p>
+            <p>Un <b>periodista de la Agencia EFE fue amenazado y luego herido</b>, también impidieron el trabajo y amenazaron a otros periodistas por parte de la policía nacional y FFAA.</p>
+            <p>Se difunden <b>video de agresión de policías a civiles</b>, y estos mismos policías dañando la propiedad privada. También obstaculizaciones de transito de ambulacias por parte de civiles.</p>
+            <p>Se empieza a hablar del viaje a Lima desde varias regiones para ir a una nueva <b>Marcha de los 4 Suyos</b>.</p>
+            <p>El viernes 6 y sábado 7 de enero, <b>en Lima detuvieron arbitrariamente</b> a decenas de personas que protestaban de manera pacifica, no les facilitaron el acceso rápido de abogados y algunos tenían lesiones en alguans partes del cuerpo; todos salieron libres.</p>
+            <p>El Congreso conforma <b>nueva comisión para elegir a Defensor del Pueblo</b>.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-09-2022',
+            date: 'Lunes 09 de Enero 2023',
+            content: `
+            <p>Ingreso de miles de quchuas y aymaras a Juliaca y la ciudad de Puno, asi como de rondas campesianas. Hubo fuerte represion en Juliaca (San Roman, Puno) al intentar tomar el aeropuerto que dejo 17 fallecidos con heridas de bala (entre ellos un medico que auxiliaba heridos y una joven de 17 anos) y mas de 50 heridos. Hubo posteriores saqueos con la indignacion de las noticias.</p>
+            <p>Mientras Dina Boluarte organizaba reunion del Acuerdo nacional en Lima, al que se negaron a asistir los gobernadores regionales de Apurimas, Cusco y Puno; el evento fue postergado con la noticia del primer fallecido en Juliaca.</p>
+            <p>Ante los graves hechos el Gobierno Regional de Cusco, hizo un pronunciamiento que pide la renuncia de Dina y actual mesa directiva del Congreso para formar un gobierno de trasicion; en la misma linea son las declaraciones del Gobernador Regional de Puno.</p>
+            <p>tambien hubo protestas en otros Lugares del pais.</p>
+            <p>La Superintendencia Nacional dle Migraciones ordeno impedir el ingreso al pais de Evo Morales y otros bolivianos por participar en reuniones en el sur del pais.</p>
             `,
             more: false,
             people: []
