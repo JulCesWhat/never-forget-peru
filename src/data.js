@@ -425,6 +425,15 @@ export default {
             more: false,
             people: []
         },
+        {
+            id: '01-16-2022',
+            date: 'Lunes 1 6de Enero 2023',
+            content: `
+            <p>Will need to add this.</p>
+            `,
+            more: false,
+            people: []
+        },
     ],
     persons: {
         'person_1': {
