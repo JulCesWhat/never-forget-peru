@@ -427,9 +427,98 @@ export default {
         },
         {
             id: '01-16-2022',
-            date: 'Lunes 1 6de Enero 2023',
+            date: 'Lunes 16 de Enero 2023',
             content: `
-            <p>Will need to add this.</p>
+            <p>Reinician paro en región La Libertad.</p>
+            <p>Emotivas despedidas a los que viajan a Lima. Cantos, oraciones y exclamaciones por que vuelvan con vida y sanos.</p>
+            <p>En Pisco la policía detiene a la delegación de Andahuaylas, les impide el paso durante varias horas.</p>
+            <p>En Lima la policía interviene una reunión de la denominada Asamblea de los pueblos.</p>
+            <p>En Puno, la cantante Yarita Lizeth presta su bus para los marchantes. En Ica, empresa ofrece sus buses para transportar marchantes.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-17-2022',
+            date: 'Martes 17 de Enero 2023',
+            content: `
+            <p>Empiezan a llegar delegaciones a Lima, son acogidos en las universidades UNI y San Marcos.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-18-2022',
+            date: 'Miércoles 18 de Enero 2023',
+            content: `
+            <p>Lima, Rectora de San Marcos intenta expulsar a manifestantes alojados en la universidad. Se producen varias movilizaciones por la ciudad, les arrojan lacrimógenas sin motivo.</p>
+            <p>Represión en Ayacucho deja herido a dirigente del Vraem, arrojado por la policía en una colina.</p>
+            <p>Represión en Huancavelica.</p>
+            <p>Población Awajún se declara en paro indefinido.</p>
+            <p>Un fallecimiento en La Libertad por paciente (51) que no pudo desplazarse por bloqueo, una adolescente gestante perdió a su bebé.</p>
+            <p>Fuerte represión en Macusani, Puno, deja varios heridos y a Sonia Aguilar (35) fallecida por disparo en la cabeza. Así como un herdio de gravedad por disparo en el vientre.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-19-2022',
+            date: 'Jueves 19 de Enero 2023',
+            content: `
+            <p>Policía rodea Universidad de San Marcos, donde se alojan marchantes.</p>
+            <p>Grandes movilizaciones en Lima son reprimidas en distintos puntos.</p>
+            <p>Intento de tomas de aeropuertos en Juliaca, Cusco y Arequipa. Se suspenden vuelos, hay represión, heridos y detenidos.</p>
+            <p>En Arequipa fallece Jorge Condori Arcana (30) por herido de bala.</p>
+            <p>En Cusco hay varios heridos por disparos, la violenta represión se extiende hasta la noche.</p>
+            <p>Fallece el herido de gravedad del día anterior en Macusani, Salomón Valenzuela Chua (30)</p>
+            <p>Incendio en un edificio antiguo en el centro de Lima. El gobierno se apresura a culpar a los manifestantes, pero el incendio se produjo en un zona donde no había manifestantes y varios indicios hacen sospechar que se trata de un autoatentado, similar al que dirigió Montesinos en 2000 en el Banco de la Nación.</p>
+            <p>Discurso a la nación en el que Boluarte y Otárola anuncian mayor represión violenta.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-20-2022',
+            date: 'Viernes 20 de Enero 2023',
+            content: `
+            <p>Continúan llegando manifestantes a Lima. En varios puntos del país continúan los bloqueos de vías.</p>
+            <p><b>Enfrentamientos en el puente Añashuayco</b> en Arequipa e intento de toma del aeropuerto.</p>
+            <p>Enfrentamientos en la carretera bloqueada en Chao, Virú, La Libertad. Produce <b>varios heridos y 1 muerto</b> Segundo Nixon Sánchez Huaynacari (23).</p>
+            <p>Manifestantes ingresan al campamento de mina Antapacay en Espinar, Cusco, produciendo destrozos en el campamento.</p>
+            <p>Enfrentamientos en Zepita y Desaguadero, Puno. En Ilave, la <b>policía dispara a manifestantes</b> que rodeaban la comísaria, matando a Isidro Arcata Mamani (62)</p>
+            <p>Grandes movilizaciones en el centro de Lima, represión violenta y detención de manifestantes.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-21-2022',
+            date: 'Sabado 21 de Enero 2023',
+            content: `
+            <p>Bloqueos en 120 carreteras del pais</p>
+            <p>Suspenden el ingreso a Machupicchu hasta que finalicen las protestas.</p>
+            <p>La policia ingresa violentamente a la Universidad de San Marcos y detiene a 193 personas, sin presencia de abogados </p>
+            <p></p>
+            <p></p>
+            <p></p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-16-2022',
+            date: 'Lunes 16 de Enero 2023',
+            content: `
+            <p>Reinician paro en región La Libertad.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-16-2022',
+            date: 'Lunes 16 de Enero 2023',
+            content: `
+            <p>Reinician paro en región La Libertad.</p>
             `,
             more: false,
             people: []
