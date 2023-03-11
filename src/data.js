@@ -495,30 +495,38 @@ export default {
             id: '01-21-2022',
             date: 'Sabado 21 de Enero 2023',
             content: `
-            <p>Bloqueos en 120 carreteras del pais</p>
+            <p>Bloqueos en 120 carreteras del país.</p>
             <p>Suspenden el ingreso a Machupicchu hasta que finalicen las protestas.</p>
-            <p>La policia ingresa violentamente a la Universidad de San Marcos y detiene a 193 personas, sin presencia de abogados </p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <p>La <b>policía ingresa violentamente a la Universidad de San Marcos</b> y detiene a 193 personas, sin presencia de abogados ni fiscales, con actos intimidatorios y racistas. Los detenidos eran manifestantes llegados de regiones y alumnos de la universidad, todos son llevados a dos dependencias policiales donde recién pueden ingresar los abogados.</p>
+            <p>Movilizaciones de universitarios y población en todas las ciudades del país exigiendo la liberación de los detenidos en Lima.</p>
+            <p>La comisaría de Ilave (Puno) en incendiada, no habían policías dentro.</p>
+            <p>La <b>policía rodea también la Universidad de Ingeniería (UNI)</b>, donde se alojaban otros manifestantes, pero el Rector Alfonso López Chau evita su ingreso.</p>
             `,
             more: false,
             people: []
         },
         {
-            id: '01-16-2022',
-            date: 'Lunes 16 de Enero 2023',
+            id: '01-22-2022',
+            date: 'Domingo 22 de Enero 2023',
             content: `
-            <p>Reinician paro en región La Libertad.</p>
+            <p>En horas de la tarde son liberados la mayoría de los detenidos el día anterior en la universidad de San Marcos, a ninguno se le encontró nada que pudiera incriminarlos ni antecedentes. El último detenido liberado fue en horas de la noche.</p>
+            <p>Denuncian que hubo abusos con los detenidos, maltratdo, agresión violenta y algunas mujeres fueron desnudadas y recibieron tocamientos indevidos.</p>
+            <p>Enfrentamientos en <b>La Joya, Arequipa, producen 6 heridos</b>, la población enardecida rodea la comisaría y toma de rehén a un policía. Tras negociaciones en las que interviene un sacerdote, intercambian al policía retenido por los 5 detenidos.</p>
+            <p>Nuevas <b>delegaciones de todo el Perú siguen marchando rumbo a Lima</b>, en la ciudad se suma gente a apoyar a los manifestantes, grupos de artistas, ciudadanos con donaciones, etc.</p>
             `,
             more: false,
             people: []
         },
         {
-            id: '01-16-2022',
-            date: 'Lunes 16 de Enero 2023',
+            id: '01-23-2022',
+            date: 'Lunes 23 de Enero 2023',
             content: `
-            <p>Reinician paro en región La Libertad.</p>
+            <p>74 carreteras continuan bloqueadas en el pais.</p>
+            <p>Diversas organizaciones convocan a una gran marcha nacional para el dia martes 24 de enero.</p>
+            <p>El congreso de la republica tiene en agenda para el martes 24, ver si adelantan la siguiente legislatura que vera si se ratifica el adelanto de elecciones para el 2024 o se posterga par ael 2026.</p>
+            <p>Nuevas movilizaciones y represiones en el centro de Lima.</p>
+            <p>Siguen partiendo delegaciones rumbo a Lima, a su paso reciben apoyo y donaciones en distintas localidades.</p>
+            <p>Amnistia Internacional pide el gobierno espanol que suspenda la venta de suministros para reprimir protestas en el Peru, diputados espanoles se suman al pedido. Hay mas pronunciameintos internacionales pidiendo el cese de la represion en Peru.</p>
             `,
             more: false,
             people: []
