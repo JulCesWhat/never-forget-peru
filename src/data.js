@@ -521,19 +521,19 @@ export default {
             id: '01-23-2022',
             date: 'Lunes 23 de Enero 2023',
             content: `
-            <p>74 carreteras continuan bloqueadas en el pais.</p>
-            <p>Diversas organizaciones convocan a una gran marcha nacional para el dia martes 24 de enero.</p>
-            <p>El congreso de la republica tiene en agenda para el martes 24, ver si adelantan la siguiente legislatura que vera si se ratifica el adelanto de elecciones para el 2024 o se posterga par ael 2026.</p>
+            <p>74 carreteras continúan bloqueadas en el país.</p>
+            <p>Diversas organizaciones convocan a una gran marcha nacional para el día martes 24 de enero.</p>
+            <p>El congreso de la república tiene en agenda para el martes 24, ver si adelantan la siguiente legislatura que verá si se ratifica el adelanto de elecciones para el 2024 o se posterga para el 2026.</p>
             <p>Nuevas movilizaciones y represiones en el centro de Lima.</p>
             <p>Siguen partiendo delegaciones rumbo a Lima, a su paso reciben apoyo y donaciones en distintas localidades.</p>
-            <p>Amnistia Internacional pide el gobierno espanol que suspenda la venta de suministros para reprimir protestas en el Peru, diputados espanoles se suman al pedido. Hay mas pronunciameintos internacionales pidiendo el cese de la represion en Peru.</p>
+            <p>Amnistía Internacional pide al gobierno español que <b>suspenda la venta de suministros para reprimir protestas</b> en el Perú, diputados españoles se suman al pedido. Hay más pronunciamientos internacionales pidiendo el cese de la represión en Perú.</p>
             `,
             more: false,
             people: []
         },
         {
-            id: '01-16-2022',
-            date: 'Lunes 16 de Enero 2023',
+            id: '01-24-2022',
+            date: 'Martes 24 de Enero 2023',
             content: `
             <p>Reinician paro en región La Libertad.</p>
             `,
