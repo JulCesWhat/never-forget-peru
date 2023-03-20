@@ -543,6 +543,67 @@ export default {
             more: false,
             people: []
         },
+        {
+            id: '01-26-27-2022',
+            date: 'Jueves 26 - Viernes 27 de Enero 2023',
+            content: `
+            <p>80 carreteras continúan bloqueadas en el país. Las movilizaciones en Lima se desplazan desde distritos alejados (los conos) hacia el centro de la ciudad.</p>
+            <p>El primir minisro <b>Otárola visita Puero Maldonado</b> para entrevistarse con el governador regional de Madre de Dios, pero es <b>rechazado por pobladores</b> que atacan la casa del gobernador, quien responde con disparos.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-28-2022',
+            date: 'Sábado 28 de Enero 2023',
+            content: `
+            <p>En diversos puntos bloqueados dan tregua para abastecimiento de productos básicos. En varias ciudades se siente <b>carencia de gas y combustible</b>, los especuladores incrementan el costo excesivamente.</p>
+            <p>Grandes movilizaciones en Lima. Ya finalizando la jornada, la policía <b>reprime violentamente en el centro de Lima</b>, Víctor Santisteban Yacsavilca (55) recibe impacto de bomba lacrimógena en la cabeza, lo que es registrado en vivo por algunos medios de comunicación. Fallece en el hospital de emergencia Grau.</p>
+            <p>Hay varios heridos, al menos tres de emergencia por disparos en la cabeza (también registrados por prensa). La policía reprime violentamente a familiares y personas que estaban en el hospital Grau. También reprimen y hieren a periodistas independientes y a brigadistas de salud.</p>
+            <p>A las horas el ministerio de salud cambia el comunicado sobre el fallecimiento de Santisteban y el gobierno sostiene que murio por una pedrada.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-29-30-2022',
+            date: 'Domingo 29 - Lunes 30 de Enero 2023',
+            content: `
+            <p>Continúan las movilizaciones en Lima y otras localidades. Llegan nuevas delegaciones a Lima.</p>
+            <p>Se reportan 14 detenidos el día anterior.</p>
+            <p>Alcalde de Lima López Aliaga anuncia que declarará intangible el centro de la ciudad para que no ingresen manifestantes.</p>
+            <p>La <b>Organización de Estados Americanos emite un pronunciamiento</b> en el que pide al Estado peruano cesar la represión violenta, así como adelantar las elecciones generales para el presente año.</p>
+            <p>Amnistía Internacional envia observadores al Perú. Prensa internacional informa la violencia excesiva de la represion en el país.</p>
+            <p>El congreso de la república dilata los debates para el adelanto a elecciones el 2023, día a día. Dina Boluarte propone nuevos proyectos de Ley para el mismo tema, no acepta renunciar.</p>
+            <p>Siguen convocatorias a marchas para los días siguientes.</p>
+            `,
+            more: false,
+            people: []
+        },
+        {
+            id: '01-31-2022',
+            date: 'Martes 31 de Enero 2023',
+            content: `
+            <p>71 bloqueos en el país. Movilizaciones en distintos puntos.</p>
+            <p>Grandes movilizaciones en Lima, una por cercanías del aeropuerto pero no intentan tomarlo.</p>
+            <p>Algunos gremios de pequeños y medianos empresarios exigen al gobierno el adelanto de elecciones. Congreso continúan dilatando el tema.</p>
+            <p>En Cusco actos vandálicos a los que no se asoma ningún policía (a pesar de comisarías cercanas), en horas de la tarde detienen a 4 jóvenes de Pisac que ya se retiraban junto a su delegación luego de marcha pacífica.</p>
+            <p>Osinergmin comunica que el incremento desmedido de precios del gas no se justifica y debe ser denunciado.</p>
+            <p>TV Perú despide a periodista que cuestionó al gobierno por el homicidio de Víctor Santisteban.</p>
+            <p>Detienen arbitrariamente a 7 dirigentes más de Ayacucho, acusándolos de terrorismo.</p>
+            `,
+            more: false,
+            people: []
+        },
+        // {
+        //     id: '01-24-25-2022',
+        //     date: 'Martes 24 - Miércoles 25 de Enero 2023',
+        //     content: `
+        //     <p></p>
+        //     `,
+        //     more: false,
+        //     people: []
+        // },
     ],
     persons: {
         'person_1': {
