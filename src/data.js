@@ -532,10 +532,13 @@ export default {
             people: []
         },
         {
-            id: '01-24-2022',
-            date: 'Martes 24 de Enero 2023',
+            id: '01-24-25-2022',
+            date: 'Martes 24 - Miércoles 25 de Enero 2023',
             content: `
-            <p>Reinician paro en región La Libertad.</p>
+            <p>85 carreteras bloqueadas en el país. Violento desbloqueo en Ica.</p>
+            <p>Suspenden la celebración de la Virgen Candelaria de Puno.</p>
+            <p>En conferencia de prensa, Dian Boluarte argumenta mentiras y expresa que "Puno no es el Perú".</p>
+            <p>Grandes movilizaciones en Lima, con fuerte represión.</p>
             `,
             more: false,
             people: []
